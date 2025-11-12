@@ -86,94 +86,92 @@ export default function PricingSection() {
 
             {/* Full Deployment & Expansion */}
             <div className="rounded-2xl border border-red-500/30 bg-red-500/5 p-6 dark:border-red-500/30 dark:bg-red-500/5">
-                <div className="space-y-4">
-                  <div>
-                    <div className="mb-1.5 flex items-center gap-2">
-                      <span className="font-medium text-red-500/85 text-xs tracking-tighter dark:text-red-500/85">
-                        MOST POPULAR
-                      </span>
-                    </div>
-                    <h3 className="mb-1.5 font-medium text-2xl text-black tracking-tighter dark:text-white">
-                      Full Deployment & Expansion
-                    </h3>
-                    <p className="text-black/60 text-sm tracking-tighter dark:text-white/60">
-                      Enterprise-wide rollout with ongoing optimization.
-                    </p>
-                  </div>
-                  <div className="flex items-baseline gap-2">
-                    <span className="font-semibold text-4xl text-black tracking-tighter dark:text-white">
-                      $95K-500K
+              <div className="space-y-4">
+                <div>
+                  <div className="mb-1.5 flex items-center gap-2">
+                    <span className="font-medium text-red-500/85 text-xs tracking-tighter dark:text-red-500/85">
+                      MOST POPULAR
                     </span>
                   </div>
-                  <ul className="space-y-2 text-black/70 text-sm dark:text-white/70">
-                    <li className="flex items-start gap-2">
-                      <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                      <span>Multi-department deployment</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                      <span>Custom integrations</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                      <span>Dedicated success team</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                      <span>Quarterly strategy reviews</span>
-                    </li>
-                  </ul>
-                  <Button className="w-full rounded-lg bg-red-500 text-white hover:bg-red-600 dark:bg-red-500 dark:hover:bg-red-600">
-                    Scale Up
-                  </Button>
+                  <h3 className="mb-1.5 font-medium text-2xl text-black tracking-tighter dark:text-white">
+                    Full Deployment & Expansion
+                  </h3>
+                  <p className="text-black/60 text-sm tracking-tighter dark:text-white/60">
+                    Enterprise-wide rollout with ongoing optimization.
+                  </p>
                 </div>
+                <div className="flex items-baseline gap-2">
+                  <span className="font-semibold text-4xl text-black tracking-tighter dark:text-white">
+                    $95K-500K
+                  </span>
+                </div>
+                <ul className="space-y-2 text-black/70 text-sm dark:text-white/70">
+                  <li className="flex items-start gap-2">
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
+                    <span>Multi-department deployment</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
+                    <span>Custom integrations</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
+                    <span>Dedicated success team</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
+                    <span>Quarterly strategy reviews</span>
+                  </li>
+                </ul>
+                <Button className="w-full rounded-lg bg-red-500 text-white hover:bg-red-600 dark:bg-red-500 dark:hover:bg-red-600">
+                  Scale Up
+                </Button>
               </div>
             </div>
 
             {/* AgentWorks */}
             <div className="rounded-2xl border border-black/10 bg-black/5 p-6 dark:border-white/5 dark:bg-zinc-900/50">
-                <div className="space-y-4">
-                  <div>
-                    <div className="mb-1.5 flex items-center gap-2">
-                      <span className="font-medium text-green-500/85 text-xs tracking-tighter dark:text-green-500/85">
-                        ONGOING
-                      </span>
-                    </div>
-                    <h3 className="mb-1.5 font-medium text-2xl text-black tracking-tighter dark:text-white">
-                      AgentWorks
-                    </h3>
-                    <p className="text-black/60 text-sm tracking-tighter dark:text-white/60">
-                      Managed AI agents for continuous operations.
-                    </p>
-                  </div>
-                  <div className="flex items-baseline gap-2">
-                    <span className="font-semibold text-4xl text-black tracking-tighter dark:text-white">
-                      $2.5K-25K
+              <div className="space-y-4">
+                <div>
+                  <div className="mb-1.5 flex items-center gap-2">
+                    <span className="font-medium text-green-500/85 text-xs tracking-tighter dark:text-green-500/85">
+                      ONGOING
                     </span>
-                    <span className="text-black/60 text-sm dark:text-white/60">/month</span>
                   </div>
-                  <ul className="space-y-2 text-black/70 text-sm dark:text-white/70">
-                    <li className="flex items-start gap-2">
-                      <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                      <span>Pre-built agent library</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                      <span>24/7 autonomous operation</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                      <span>Monthly optimization</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                      <span>Usage-based scaling</span>
-                    </li>
-                  </ul>
-                  <Button className="w-full rounded-lg bg-green-500 text-white hover:bg-green-600 dark:bg-green-500 dark:hover:bg-green-600">
-                    Get Started
-                  </Button>
+                  <h3 className="mb-1.5 font-medium text-2xl text-black tracking-tighter dark:text-white">
+                    AgentWorks
+                  </h3>
+                  <p className="text-black/60 text-sm tracking-tighter dark:text-white/60">
+                    Managed AI agents for continuous operations.
+                  </p>
                 </div>
+                <div className="flex items-baseline gap-2">
+                  <span className="font-semibold text-4xl text-black tracking-tighter dark:text-white">
+                    $2.5K-25K
+                  </span>
+                  <span className="text-black/60 text-sm dark:text-white/60">/month</span>
+                </div>
+                <ul className="space-y-2 text-black/70 text-sm dark:text-white/70">
+                  <li className="flex items-start gap-2">
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
+                    <span>Pre-built agent library</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
+                    <span>24/7 autonomous operation</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
+                    <span>Monthly optimization</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0" />
+                    <span>Usage-based scaling</span>
+                  </li>
+                </ul>
+                <Button className="w-full rounded-lg bg-green-500 text-white hover:bg-green-600 dark:bg-green-500 dark:hover:bg-green-600">
+                  Get Started
+                </Button>
               </div>
             </div>
           </div>
