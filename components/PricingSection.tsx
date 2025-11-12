@@ -177,6 +177,7 @@ export default function PricingSection() {
               </div>
             </div>
           </div>
+        </div>
 
         {/* Value Proposition */}
         <div className="relative mt-12">
@@ -206,7 +207,6 @@ export default function PricingSection() {
               </p>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </section>
